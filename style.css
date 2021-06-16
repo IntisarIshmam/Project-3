@@ -1,0 +1,244 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+hr {
+    margin: 0 auto;  
+    color: inherit !important;
+    background-color: transparent !important;
+    border: 5px dotted;
+    border-bottom: none !important;
+    opacity: 1 !important;
+}
+
+.hr-style{
+    border: 5px dotted rgb(255, 255, 255);
+    border-bottom: none;
+    width: 50px;
+}
+
+/* Header starts */
+
+header{
+    background-image: url(pexels-tima-miroshnichenko-5428260.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#logo{
+    padding: 6px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.navbar{
+    padding: 10px 15px;
+    background-color: rgb(0, 0, 0,0.4);
+}
+
+.navbar-icon{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.nav-link:hover{
+    background-color: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Header ends */
+
+/* Banner starts */
+
+.banner-container{
+    margin-top: 150px;
+}
+
+.banner-container h1{
+    font-size: 50px;
+    background-color: rgba(79, 155, 255, 0.4);
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+
+/* Banner ends */
+
+/* Features start */
+
+    #features{
+        padding: 10px 20px;
+        background-color: #e8ded2;
+    }
+
+    .features-col{
+        border: #ff02c0 1px solid;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 20px 0px;
+        width: 300px;
+        margin-left: 60px;
+        transition: .4s;
+    }
+
+    .features-col:hover{
+        transform: scale(1.1);
+        box-shadow: 2px 6px 5px black;
+    }
+
+    .icon-style{
+        background-color: #bb0aac;
+        color: white;
+        padding: 15px;
+        margin: 5px 0;
+    }
+    
+/* Features end */
+
+
+/* About-me-starts */
+
+
+    #about-me {
+        padding: 4% 10%;
+        background-color: #e8ded2;
+    }   
+    
+    #about-me p{
+        font-size: 0.9rem;
+        margin-bottom: 1px;
+        font-weight: lighter;
+    }
+
+    .Achieve-desc span{
+        font-weight: 700 !important;
+    }
+
+    .star i{
+        width: 20px;
+        color: red;
+    }
+
+
+/* About-me-ends */
+
+
+/* Card stars */
+
+    .projects{
+        padding: 2% 0%;
+    }
+
+    .card{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        width: 70%;
+        transition: .4s;
+    }
+
+    .card:hover{
+        transform: scale(1.1);
+    }
+
+
+/* Card ends */
+
+
+/* Feedback starts */
+
+    #feedback{
+        background-color: rgb(41, 201, 223);
+        padding: 5px 10px;
+    }
+
+    .carousel-item{
+        text-align: center;
+        padding: 20px;
+    }
+
+
+/* Feedback ends */
+
+
+/* Contact-starts */
+
+    #contact{
+        background-color: #5eaaa8;
+        padding: 5px 10px;
+    }
+
+    .form-group label{
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+
+/* Contact-ends */
+
+
+/* Footer starts */
+
+    footer{
+        padding: 1% 10%;
+        background-color: #056676;
+    }
+
+    footer a{
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+    }
+
+/* Footer ends */
+
+/* For mobile */
+
+@media (max-width: 576px){
+    .banner-container h1{
+        font-size: 45px;
+        background-color: rgba(79, 155, 255, 0.4);
+        width: 100%;
+    }
+
+    .card{
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    .card-body{
+        text-align: center;
+    }
+}
